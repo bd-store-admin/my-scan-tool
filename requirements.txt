@@ -1,0 +1,6 @@
+streamlit
+line-bot-sdk==3.7.0
+streamlit-qrcode-scanner
+streamlit-js-eval
+geopy
+pandas

@@ -8,7 +8,7 @@ from streamlit_js_eval import get_geolocation
 from geopy.geocoders import Nominatim
 
 # --- 1. ตั้งค่า LINE (ใส่รหัสที่คุณให้มาแล้ว) ---
-LINE_TOKEN = "UQYOCYmqVmCuktPpx/6lgoBJ7tPKZDC2oJsYNLUf7l4m5e3vlNbE5K5sltM4I2bxKtD"
+LINE_TOKEN = "UQYOCYmqVmCuktPpx/6lgoBJ7tPKZDC2oJsYNlUf7l4m5e3vlNbE5K5sltM4I2bxKtDj27pqUoOBfNv/VQlsdQCN5pCK3cwwT3tqIstmh77mIp4Njm0x4987jvoQ2o3SlT+0OzklXS/REBTwCSstEwdB04t89/1O/w1cDnyilFU="
 GROUP_ID = "C7986c8ec91cb3ee8919cb0fd1dfc249f"
 line_bot_api = LineBotApi(LINE_TOKEN)
 
@@ -99,4 +99,5 @@ if st.button("🚀 ยืนยันข้อมูลและส่งแจ�
             st.error(f"เกิดข้อผิดพลาด: {e}\n(ตรวจสอบว่าดึงบอทเข้ากลุ่มหรือยัง?)")
     else:
         st.warning("⚠️ กรุณากรอกชื่อและสแกนอุปกรณ์ให้เรียบร้อย")
+
       
